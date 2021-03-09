@@ -22,7 +22,7 @@ namespace CustomerNotification.API.Controllers
        /// </summary>
        /// <param name="CustomerId"></param>
        /// <returns></returns>
-        [HttpGet("CustomerNotification/{CustomerId}")]
+        [HttpGet("v1/CustomerNotification/{CustomerId}")]
         public async  Task<IActionResult> GetCustomerNotificationMessage([FromRoute][Required] string CustomerId) {
 
                 
