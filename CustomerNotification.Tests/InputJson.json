@@ -1,0 +1,4 @@
+{
+  "MessageType": "UserDeleted",
+  "Data": [ "UserId : Customer1" ]
+}
